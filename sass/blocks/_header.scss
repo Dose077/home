@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      
+    
+        &__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+    
+            &--item {
+                list-style-type: none;
+    
+                &-link {
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    color: #333136;
+                &:hover{
+                    cursor: pointer;
+                    border-bottom: 1px solid #333136;
+                }
+                }
+            }
+        }
+        &__bi-list{
+            display: 
+          none  ;
+        }
+        
+// @media only screen and (max-width: 768px) {
+    
+//     &__list{
+//         display: none;
+//     }
+
+//     &nav__bi-list{
+//        display: block;
+//     }
+//     }
+    
+}
+}
